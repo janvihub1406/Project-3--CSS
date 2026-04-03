@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veg Food Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Veg Food Store</h1>
+        <p>Fresh & Healthy Food</p>
+        
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for food (e.g., Burger, Pizza)..." onkeyup="searchFood()">
+        </div>
+    </header>
+
+    <main class="container" id="foodGrid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1550547660-d9450f859349" alt="Veg Burger">
+            <h3>Veg Burger</h3>
+            <p class="price">₹120</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <div class="buttons">
+                <button class="buy-btn">Buy</button>
+                <button class="cart-btn">Cart</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1629740001727-f9ad15f720c4?q=80&w=1074&auto=format&fit=crop" alt="Paneer Pizza">
+            <h3>Paneer Pizza</h3>
+            <p class="price">₹250</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <div class="buttons">
+                <button class="buy-btn">Buy</button>
+                <button class="cart-btn">Cart</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950" alt="Samosa">
+            <h3>Samosa</h3>
+            <p class="price">₹40</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <div class="buttons">
+                <button class="buy-btn">Buy</button>
+                <button class="cart-btn">Cart</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Salad Bowl">
+            <h3>Salad Bowl</h3>
+            <p class="price">₹100</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <div class="buttons">
+                <button class="buy-btn">Buy</button>
+                <button class="cart-btn">Cart</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af" alt="Veg Sandwich">
+            <h3>Veg Sandwich</h3>
+            <p class="price">₹90</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <div class="buttons">
+                <button class="buy-btn">Buy</button>
+                <button class="cart-btn">Cart</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e" alt="Pasta">
+            <h3>Pasta</h3>
+            <p class="price">₹160</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <div class="buttons">
+                <button class="buy-btn">Buy</button>
+                <button class="cart-btn">Cart</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://plus.unsplash.com/premium_photo-1671547329182-deaf1c94263e?q=80&w=1170&auto=format&fit=crop" alt="Veg Momos">
+            <h3>Veg Momos</h3>
+            <p class="price">₹110</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <div class="buttons">
+                <button class="buy-btn">Buy</button>
+                <button class="cart-btn">Cart</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1553530666-ba11a7da3888" alt="Fruit Juice">
+            <h3>Fruit Juice</h3>
+            <p class="price">₹80</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <div class="buttons">
+                <button class="buy-btn">Buy</button>
+                <button class="cart-btn">Cart</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0" alt="Veg Biryani">
+            <h3>Veg Biryani</h3>
+            <p class="price">₹140</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <div class="buttons">
+                <button class="buy-btn">Buy</button>
+                <button class="cart-btn">Cart</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://b.zmtcdn.com/data/dish_photos/94c/d664afc8b10cccf8ee72acbd958d494c.jpg" alt="Veg Thali">
+            <h3>Veg Thali</h3>
+            <p class="price">₹200</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <div class="buttons">
+                <button class="buy-btn">Buy</button>
+                <button class="cart-btn">Cart</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1668236543090-82eba5ee5976?q=80&w=1170&auto=format&fit=crop" alt="Masala Dosa">
+            <h3>Masala Dosa</h3>
+            <p class="price">₹150</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <div class="buttons">
+                <button class="buy-btn">Buy</button>
+                <button class="cart-btn">Cart</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_960,w_960//InstamartAssets/Receipes/sambhar_idli.webp" alt="Idli Sambar">
+            <h3>Idli Sambar</h3>
+            <p class="price">₹180</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <div class="buttons">
+                <button class="buy-btn">Buy</button>
+                <button class="cart-btn">Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Veg Food Store</p>
+    </footer>
+
+    <script>
+        function searchFood() {
+            let input = document.getElementById('searchInput').value.toLowerCase();
+            let cards = document.getElementsByClassName('card');
+
+            for (let i = 0; i < cards.length; i++) {
+                let title = cards[i].getElementsByTagName('h3')[0].innerText.toLowerCase();
+                if (title.includes(input)) {
+                    cards[i].style.display = "";
+                } else {
+                    cards[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
